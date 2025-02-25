@@ -8,7 +8,7 @@ h1 {
     font-size: 72;
 }
 
-div {  
+.command {  
     border: 1px solid;
     border-color: lightblue;
     font-size: x-large;
@@ -19,6 +19,6 @@ div {
 
 }
 
-div:hover {
+.command:hover {
     color:red;
 }
