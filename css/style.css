@@ -1,11 +1,27 @@
 body {
     padding: 0 10%;
+    background-image: linear-gradient(to right, rgb(152, 152, 242), rgb(255, 255, 139));
   }
   
 
 h1 {
-    color: blue;
+    color: rgb(25, 19, 210);
     font-size: 72;
+}
+
+.group{
+    border: 1px solod black;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.group > .header{
+    font-size: xx-large;
+    background-color: blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .command {  
@@ -13,7 +29,7 @@ h1 {
     border-color: lightblue;
     font-size: x-large;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-radius: 3px;
     box-shadow: 0 0 3px 0px #00000033;
 
